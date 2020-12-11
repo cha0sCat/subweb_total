@@ -1,0 +1,10 @@
+HTTP/2 200 
+server: nginx
+date: Fri, 11 Dec 2020 10:12:49 GMT
+content-type: application/octet-stream; charset=utf-8
+content-length: 7456
+cache-control: no-store, no-cache, must-revalidate
+content-disposition: attachment; filename=node.txt
+subscription-userinfo: upload=11881066; download=1937229308; total=53687091200; expire=1595160129
+strict-transport-security: max-age=31536000
+
