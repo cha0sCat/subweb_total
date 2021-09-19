@@ -1,0 +1,23 @@
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steampipe.akamaihd.net
+# 完美
+;DOMAIN-SUFFIX,csgo.wmsj.cn
+;DOMAIN-SUFFIX,dota2.wmsj.cn
+DOMAIN-SUFFIX,wmsjsteam.com
+; 金山云
+DOMAIN-SUFFIX,dl.steam.clngaa.com
+;DOMAIN-SUFFIX,dl.steam.ksyna.com
+# 白山云
+;DOMAIN-SUFFIX,st.dl.bscstorage.net
+;DOMAIN-SUFFIX,st.dl.eccdnx.com
+;DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+# 华为云
+DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+
+
+# 网宿
+;DOMAIN-SUFFIX,steampowered.com.8686c.com
+;DOMAIN-SUFFIX,steamstatic.com.8686c.com
+
+# 蒸汽中国
+DOMAIN-SUFFIX,steamchina.com
