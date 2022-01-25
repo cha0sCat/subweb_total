@@ -1,0 +1,2 @@
+# clash tun/tap  mDNS, UPNP Broadcast Storm
+IP-CIDR,224.0.0.0/4,no-resolve
