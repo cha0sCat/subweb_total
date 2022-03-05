@@ -149,6 +149,7 @@ DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,toutiao13.com
+DOMAIN-SUFFIX,toutiaoapi.com
 DOMAIN-SUFFIX,toutiaocdn.com
 DOMAIN-SUFFIX,toutiaocdn.net
 DOMAIN-SUFFIX,toutiaocloud.com
@@ -157,6 +158,7 @@ DOMAIN-SUFFIX,toutiaohao.net
 DOMAIN-SUFFIX,toutiaoimg.com
 DOMAIN-SUFFIX,toutiaopage.com
 DOMAIN-SUFFIX,wukong.com
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zjbyte.com
 DOMAIN-SUFFIX,zjcdn.com
@@ -309,20 +311,25 @@ DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
 # SteamCN
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,csgo.wmsj.cn
-DOMAIN-SUFFIX,dl.steam.ksyna.com
 DOMAIN-SUFFIX,dota2.wmsj.cn
+DOMAIN-SUFFIX,wmsjsteam.com
+DOMAIN-SUFFIX,dl.steam.clngaa.com
+DOMAIN-SUFFIX,dl.steam.ksyna.com
 DOMAIN-SUFFIX,st.dl.bscstorage.net
 DOMAIN-SUFFIX,st.dl.eccdnx.com
 DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com.8686c.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,steamstatic.com.8686c.com
 
 # Tencent
 DOMAIN-SUFFIX,foxmail.com
@@ -568,7 +575,6 @@ DOMAIN-SUFFIX,letitfly.me
 DOMAIN-SUFFIX,lizhi.fm
 DOMAIN-SUFFIX,lizhi.io
 DOMAIN-SUFFIX,lizhifm.com
-DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,lvmama.com
 DOMAIN-SUFFIX,lxdns.com
@@ -614,9 +620,7 @@ DOMAIN-SUFFIX,qiushibaike.com
 DOMAIN-SUFFIX,quanmin.tv
 DOMAIN-SUFFIX,qunar.com
 DOMAIN-SUFFIX,qunarzz.com
-DOMAIN-SUFFIX,rarbg.to
 DOMAIN-SUFFIX,repaik.com
-DOMAIN-SUFFIX,rrmj.tv
 DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,runoob.com
 DOMAIN-SUFFIX,sankuai.com
@@ -624,7 +628,6 @@ DOMAIN-SUFFIX,segmentfault.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,shumilou.net
 DOMAIN-SUFFIX,simplecd.me
-DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snwx.com
 DOMAIN-SUFFIX,soufunimg.com
