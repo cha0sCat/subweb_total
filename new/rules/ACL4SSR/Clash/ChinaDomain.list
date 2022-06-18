@@ -14,12 +14,14 @@ DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,qupu123.com
 DOMAIN-SUFFIX,pdfwifi.com
+DOMAIN-SUFFIX,zhenguanyu.biz
+DOMAIN-SUFFIX,zhenguanyu.com
 
-# CN域名直连
+# CN域名直连(中国|公司|网络)
 DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,中国
-DOMAIN-SUFFIX,公司
-DOMAIN-SUFFIX,网络
+DOMAIN-SUFFIX,xn--fiqs8s
+DOMAIN-SUFFIX,xn--55qx5d
+DOMAIN-SUFFIX,xn--io0a7i
 
 # 中国国内常见域名关键词直连
 DOMAIN-KEYWORD,-cn
@@ -135,13 +137,29 @@ DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
 # ByteDance
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,bdxiguaimg.com
+DOMAIN-SUFFIX,bdxiguastatic.com
+DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,bytedns.net
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytescm.com
+DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,bytexservice.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,feelgood.cn
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,huoshan.com
+DOMAIN-SUFFIX,huoshanzhibo.com
+DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,kspkg.com
@@ -311,25 +329,26 @@ DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
 # SteamCN
+DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,csgo.wmsj.cn
-DOMAIN-SUFFIX,dota2.wmsj.cn
-DOMAIN-SUFFIX,wmsjsteam.com
-DOMAIN-SUFFIX,dl.steam.clngaa.com
-DOMAIN-SUFFIX,dl.steam.ksyna.com
-DOMAIN-SUFFIX,st.dl.bscstorage.net
-DOMAIN-SUFFIX,st.dl.eccdnx.com
-DOMAIN-SUFFIX,st.dl.pinyuncloud.com
-DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+DOMAIN,csgo.wmsj.cn
+DOMAIN,dota2.wmsj.cn
+DOMAIN,wmsjsteam.com
+DOMAIN,dl.steam.clngaa.com
+DOMAIN,dl.steam.ksyna.com
+DOMAIN,st.dl.bscstorage.net
+DOMAIN,st.dl.eccdnx.com
+DOMAIN,st.dl.pinyuncloud.com
+DOMAIN,steampipe.steamcontent.tnkjmec.com
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steampowered.com.8686c.com
+DOMAIN,steampowered.com.8686c.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
-DOMAIN-SUFFIX,steamstatic.com.8686c.com
+DOMAIN,steamstatic.com.8686c.com
 
 # Tencent
 DOMAIN-SUFFIX,foxmail.com
@@ -601,7 +620,6 @@ DOMAIN-SUFFIX,onlinedown.net
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oschina.net
 DOMAIN-SUFFIX,ourdvs.com
-DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,polyv.net
 DOMAIN-SUFFIX,qbox.me
 DOMAIN-SUFFIX,qcloud.com
