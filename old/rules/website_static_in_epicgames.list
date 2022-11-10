@@ -1,0 +1,3 @@
+# 有些网站 (例如 artstation ) 使用了 epicgames 域名下的静态资源
+DOMAIN-SUFFIX,ak.epicgames.com
+DOMAIN-SUFFIX,on.epicgames.com
