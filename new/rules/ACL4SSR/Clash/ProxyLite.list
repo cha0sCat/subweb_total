@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,btlibrary.me
-DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,gameloft.com
@@ -89,7 +88,6 @@ DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,daum.net
-DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,deskconnect.com
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
@@ -380,7 +378,19 @@ DOMAIN-SUFFIX,smartmailcloud.com
 # Steam
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
 
 # TapTap
 DOMAIN-SUFFIX,tap.io
@@ -454,3 +464,7 @@ DOMAIN-SUFFIX,flzbcdn.xyz
 
 #华文电视
 DOMAIN-SUFFIX,ocnttv.com
+
+# VikACG
+DOMAIN-SUFFIX,vikacg.com
+DOMAIN-SUFFIX,picjs.xyz
