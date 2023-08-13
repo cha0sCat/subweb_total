@@ -1,8 +1,8 @@
 ;DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 
 # 取消所有steampipe, steamcontent
-;DOMAIN-KEYWORD,steampipe
-;DOMAIN-KEYWORD,steamcontent
+DOMAIN-KEYWORD,steampipe
+DOMAIN-KEYWORD,steamcontent
 
 # akamai steam游戏下载
 DOMAIN-SUFFIX,steampipe-kr.akamaized.net
