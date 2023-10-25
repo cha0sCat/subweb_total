@@ -1,34 +1,39 @@
 port: 7890
 socks-port: 7891
-allow-lan: true
+allow-lan: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
-#dns:
-#  enable: true
-#  nameserver:
-#    - 223.5.5.5
-#    - 119.29.29.29
-#  fallback:
-#    - https://doh.buzz:8000/dns-query
-#    - https://doh.beauty:8000/dns-query
-#    - https://cloudflare-dns.com/dns-query
-#    - tls://1.1.1.1:853
-#    - tls://1.0.0.1:853
-#    - https://1.1.1.1/dns-query
-#    - https://1.0.0.1/dns-query
-#    - tls://8.8.8.8:853
-#    - tls://8.8.4.4:853
-#    - https://dns.google/dns-query
-#    - https://dns.twnic.tw/dns-query
-#  fallback-filter:
-#    geoip: true
-#    geoip-code: CN
-#    ipcidr:
-#      - 240.0.0.0/4
-#    domain:
-#      - '+.google.com'
-#      - '+.facebook.com'
-#      - '+.youtube.com'
-#  nameserver-policy:
-#     '+.ikuuu.work': '223.5.5.5'
+dns:
+  enable: true
+  use-hosts: true
+
+  # 标准 dns
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+  # 用于 doh 的 boot-dns
+  # 确保能正确解析 doh 服务器域名
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+  # 海外及可能存在污染的域名使用这些 dns 服务器
+  fallback:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - tls://1.1.1.1:853
+    - tls://1.0.0.1:853
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - tls://8.8.8.8:853
+    - tls://8.8.4.4:853
+
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 127.0.0.0/8
+      - 0.0.0.0/8
