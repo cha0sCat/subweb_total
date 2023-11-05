@@ -1,6 +1,6 @@
 # 内容：国外媒体列表
-# 更新：2023-01-15 22:06:33
-# 数量：330条
+# 更新：2023-10-23 21:04:59
+# 数量：367条
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -38,10 +38,13 @@ DOMAIN-SUFFIX,aboutamazon.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazon.jobs
+DOMAIN-SUFFIX,amazontools.com
+DOMAIN-SUFFIX,amazontours.com
 DOMAIN-SUFFIX,amazonuniversity.jobs
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,seattlespheres.com
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 
 # AppleNews
@@ -298,6 +301,7 @@ IP-CIDR,185.9.188.0/22,no-resolve
 IP-CIDR,192.173.64.0/18,no-resolve
 IP-CIDR,198.38.96.0/19,no-resolve
 IP-CIDR,198.45.48.0/20,no-resolve
+IP-CIDR,203.75.84.0/24,no-resolve
 IP-CIDR,207.45.72.0/22,no-resolve
 IP-CIDR,208.75.76.0/22,no-resolve
 
@@ -306,6 +310,45 @@ USER-AGENT,Niconico*
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
+
+# NivodTV
+DOMAIN-KEYWORD,nivod
+DOMAIN-SUFFIX,biggggg.com
+DOMAIN-SUFFIX,mudvod.tv
+DOMAIN-SUFFIX,nbys.tv
+DOMAIN-SUFFIX,nbys1.tv
+DOMAIN-SUFFIX,nbyy.tv
+DOMAIN-SUFFIX,newpppp.com
+DOMAIN-SUFFIX,nivod.tv
+DOMAIN-SUFFIX,nivodi.tv
+DOMAIN-SUFFIX,nivodz.com
+DOMAIN-SUFFIX,vod360.net
+
+# Olevod
+DOMAIN-KEYWORD,olevod
+DOMAIN-SUFFIX,haiwaikan.com
+DOMAIN-SUFFIX,iole.tv
+DOMAIN-SUFFIX,olehd.com
+DOMAIN-SUFFIX,olelive.com
+DOMAIN-SUFFIX,olevod.com
+DOMAIN-SUFFIX,olevod.io
+DOMAIN-SUFFIX,olevod.tv
+DOMAIN-SUFFIX,olevodtv.com
+
+# OpenAi
+DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
 
 # PBS
 USER-AGENT,PBS*
@@ -332,7 +375,7 @@ DOMAIN-SUFFIX,soundcloud.com
 
 # Spotify
 USER-AGENT,Spotify*
-DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
@@ -354,7 +397,7 @@ DOMAIN-SUFFIX,skyking.com.tw
 
 # TikTok
 USER-AGENT,TikTok*
-DOMAIN-KEYWORD,tiktokcdn-
+DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
@@ -376,9 +419,9 @@ DOMAIN-SUFFIX,twitchcdn.net
 
 # ViuTV
 USER-AGENT,Viu*
-;PROCESS-NAME,com.viu.pad
-;PROCESS-NAME,com.viu.phone
-;PROCESS-NAME,com.vuclip.viu
+PROCESS-NAME,com.viu.pad
+PROCESS-NAME,com.viu.phone
+PROCESS-NAME,com.vuclip.viu
 DOMAIN,api.viu.now.com
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
