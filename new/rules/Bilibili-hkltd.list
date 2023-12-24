@@ -1,5 +1,6 @@
 # Bilibili Hk Limited
-IP-CIDR,103.151.150.0/23
+# ACLSSR included
+# IP-CIDR,103.151.150.0/23
 # app.biliapi.net 2022-01-22 Found
 DOMAIN,app.biliapi.net
 # new app grpc connection
