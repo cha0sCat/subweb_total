@@ -1,0 +1,170 @@
+version: '3'
+services:
+    caddy-lb:
+        image: caddy
+        ports:
+            # 对外 25502
+            - "25502:25501"
+        volumes:
+            - $PWD/Caddyfile:/etc/caddy/Caddyfile
+        depends_on:
+            - subconverter-1
+            - subconverter-2
+            - subconverter-3
+            - subconverter-4
+            - subconverter-5
+            - subconverter-6
+            - subconverter-7
+            - subconverter-8
+            - subconverter-9
+            - subconverter-10
+
+    subconverter-1:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-2:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-3:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-4:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-5:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-6:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-7:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-8:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-9:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always
+
+    subconverter-10:
+        build: .
+        expose:
+            - 25501
+        extra_hosts:
+          - "api.sub-400.club:10.0.0.100"
+          - "api-v2.sub-400.club:10.0.0.100"
+          - "api.sub-300.club:10.0.0.100"
+          - "api.sub-200.club:10.0.0.100"
+          - "api.sub-100.one:10.0.0.100"
+          - "api.ndsxfkjfvhzdsfio.quest:10.0.0.100"
+          - "api.ikuuu.science:10.0.0.100"
+          - "api.feixiongzhushou.com:10.0.0.100"
+        restart: always

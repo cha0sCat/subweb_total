@@ -1,0 +1,12 @@
+{
+        auto_https off
+}
+:25501 {
+        reverse_proxy {
+            to http://subconverter-1:25501 http://subconverter-2:25501 http://subconverter-3:25501 http://subconverter-4:25501 http://subconverter-5:25501 http://subconverter-6:25501 http://subconverter-7:25501 http://subconverter-8:25501 http://subconverter-9:25501 http://subconverter-10:25501
+            lb_policy round_robin
+            transport http {
+                keepalive  off
+            }
+        }
+}
